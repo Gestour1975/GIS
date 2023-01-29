@@ -1,0 +1,12 @@
+<system.webServer>
+    <httpProtocol>
+        <customHeaders>
+            <!--
+            Allow Web API to be called from a different domain.
+            -->
+            <add name="Access-Control-Allow-Origin" value="*" />
+            <add name="Access-Control-Allow-Headers" value="Content-Type, Accept" />
+            <add name="Access-Control-Allow-Methods" value="GET" />
+        </customHeaders>
+    </httpProtocol>
+</system.webServer>
