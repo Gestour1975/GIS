@@ -1,1 +1,1 @@
-just a game I am making for educational reasons# GIS
+just a game I am trying to make.
